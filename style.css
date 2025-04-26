@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
+('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
 :root{
     /*-------------font family----------*/
     --ff-primary:"lalita one",sans-serif;
+    --ff-secondary:"call sans"
 
 
     /*---------colors-----------*/
@@ -416,6 +419,9 @@ fire-container {
     max-width: 26rem;
     color: var(--clr-grey-2);
 }
+p.justified{
+    text-align: justify;
+}
 
 @media screen and (min-width:992px) {
     .about-img,
@@ -440,6 +446,7 @@ fire-container {
 .events-text{
     color: var(--clr-grey-2);
     max-width: 26rem;
+    text-align: justify;
 }
 
 .events-img{
