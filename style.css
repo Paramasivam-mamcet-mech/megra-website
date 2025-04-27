@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
-('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +8,6 @@
 :root{
     /*-------------font family----------*/
     --ff-primary:"lalita one",sans-serif;
-    --ff-secondary:"call sans"
 
 
     /*---------colors-----------*/
@@ -27,10 +24,6 @@
 }
 
 /*-----------global css-------------*/
-
-html{
-    scroll-behavior: smooth;
-}
 a{
     text-decoration: none;
 }
@@ -102,25 +95,16 @@ body{
 }
 .section-title h3{
     font-family: var(--ff-primary);
-    color: var(--clr-primary);
+    color: var(--ff-primary);
     font-size: 2rem;
 
 }
 .section-title {
     margin-bottom: 2rem;
 }
-
-@media screen and (min-width:992px) {
-    .section-center{
-        width: 95%;
-        padding: 4rem 1rem;
-    }
-    
-}
 /*------------navebar-----------------*/
 
-
- *{
+*{
     text-decoration: none;
  }
  .navbar{
@@ -152,17 +136,12 @@ body{
  a{
     color: #000;
  }
-
- @media (max-width: 768px) {
-    .navdiv {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navdiv a{
-        text-align: center;
-    }
+.navbar{
+    scroll-behavior: smooth;
 }
-    
+
+  
+
 /*-------Banner--------------*/
 
 
@@ -172,6 +151,7 @@ body{
     
 }
 .marquee-container {
+    margin-top: 160px;
     width: 100%;
     overflow: hidden;
     background: var(--clr-primary-light);
