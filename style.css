@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap',
+'https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+
 
 *{
     margin: 0;
@@ -8,6 +11,7 @@
 :root{
     /*-------------font family----------*/
     --ff-primary:"lalita one",sans-serif;
+    --ff-secondary:"festive"
 
 
     /*---------colors-----------*/
@@ -54,8 +58,8 @@ p{
     margin-bottom: 1.75rem;
 }
 body{
-    font-family: var(--ff-primary);
-    font-size: 0.75rem;
+    font-family: var(--ff-secondary);
+    font-size: 1rem;
     background-color: white;
     color: var(--clr-grey-1);
     line-height: 1.5;
@@ -94,7 +98,7 @@ body{
     max-width: 1170px;
 }
 .section-title h3{
-    font-family: var(--ff-primary);
+    font-family: var(--ff-secondary);
     color: var(--ff-primary);
     font-size: 2rem;
 
@@ -151,7 +155,7 @@ body{
     
 }
 .marquee-container {
-    margin-top: 160px;
+    margin-top: 100px;
     width: 100%;
     overflow: hidden;
     background: var(--clr-primary-light);
@@ -402,6 +406,16 @@ fire-container {
 p.justified{
     text-align: justify;
 }
+p.clr{
+    color: var(--clr-primary);
+
+}
+p.highlight{
+    color: var(--clr-primary-light);
+}
+p.theme{
+    color: var(--clr-primary-light);
+}
 
 @media screen and (min-width:992px) {
     .about-img,
@@ -416,6 +430,7 @@ p.justified{
 }
 
 /*----------Event-------------*/
+
 .events{
     background-color: var(--clr-grey-3);
 }
